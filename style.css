@@ -1,0 +1,33 @@
+body            
+{
+    background-color:#AFAEAD;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 1em;
+    padding-top: 1em;
+    font-size: 40pt;
+    justify-content: space-evenly;
+  }
+
+  .element {
+    padding-top: 1em;
+    text-align: center;
+  }
+
+  /* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    body{
+        margin:0px;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 40pt;
+        justify-content: center;
+        padding-top: 0px;
+        padding-left: 0px;
+      }
+  }
