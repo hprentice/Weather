@@ -17,6 +17,17 @@ body
     text-align: center;
   }
 
+  #formWrap{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  #form{
+    text-align: center;
+    padding-top: 1em;
+  }
+
   /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
     body{
